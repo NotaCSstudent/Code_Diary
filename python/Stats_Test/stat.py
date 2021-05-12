@@ -21,3 +21,4 @@ Np_Array = np.array(list)
 print("Hello")
 
 print('Hello World')
+print(np.array)
