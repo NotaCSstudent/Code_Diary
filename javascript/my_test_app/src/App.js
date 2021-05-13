@@ -4,11 +4,11 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <b>
-
-          Hello World
-          
-        </b>
+        <p>
+          <b>
+            Hello World
+          </b>
+        </p>
       </div>
     )
   }
