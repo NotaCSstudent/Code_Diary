@@ -33,6 +33,9 @@ float variance(vector<double> input)
 
 int main()
 {
-    vector<double> t{1,2,3,4,5,6,5,4,3,2,4,2,3,4,5,1,2,3,4,5};
-    std::cout << stddev(t) << std::endl << variance(t) << std::endl;
+    vector<double> t1{1,2,3,4,5,6,5,4,3,2,4,2,3,4,5,1,2,3,4,5};
+    vector<double> t2{1,2,3,4,5,6,5,4,3,2,4,2,3,4,5,1,2,3,4,5};
+    std::cout << stddev(t1) << '\n';
+    std::cout << stddev(t2) << '\n';
+
 }
