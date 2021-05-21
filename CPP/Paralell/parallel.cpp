@@ -1,5 +1,5 @@
 
-
+#include <iostream>
 int A[1000];
 int B[1000];
 int C[1000];
@@ -47,4 +47,5 @@ for (int i = 0; i < 1000; ++i)
 }
 
     test();
+    
 }
