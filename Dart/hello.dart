@@ -26,6 +26,18 @@ int hello()
   return 3;
 }
 
+
+int add(int input)
+{
+    input = input +1;
+    int g = input;
+    input = g+input;
+    return input;
+
+}
+
+
+
 void main()
 {
   print('Hello Dart');
@@ -40,4 +52,5 @@ void main()
     print(list[i]);
   }
   list.length;
+  print(add(4));
 }
