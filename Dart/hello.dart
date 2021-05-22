@@ -15,6 +15,7 @@ class Test
 
 
 
+
 class Test_2 extends Test//Inheritence
 {
   double g = 0;
@@ -36,7 +37,22 @@ int add(int input)
 
 }
 
+double mean(var arr)
+{
+  int t = 0;
+  for(int i=0;i<arr.length;i++)
+  {
+    
+  }
+  return t/arr.length;
+}
 
+
+int sub(int x)
+{
+  x = x-1;
+  return x;
+}
 
 void main()
 {
@@ -53,4 +69,15 @@ void main()
   }
   list.length;
   print(add(4));
+  print(sub(5));
+
+
+  //var list_2 = [1,2,3,4,5,6,7];
+  //print(mean(list_2))
+
+
+
+
+
+
 }
