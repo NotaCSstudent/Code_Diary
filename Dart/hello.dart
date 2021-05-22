@@ -34,4 +34,10 @@ void main()
   var first = Test(1,2,3);
   var second = Test_2(1,2,3);
   print(first.x);
+  var list = [1,2,3,4];
+  for(int i=0;i<list.length;i++)
+  {
+    print(list[i]);
+  }
+  list.length;
 }
