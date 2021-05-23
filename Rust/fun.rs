@@ -6,7 +6,7 @@ fn main()
         let buffer: &mut [i32];
         let coefficients: [i64; 12];
         let qlp_shift: i16;
-
+        println!("HELLO");
         for i in 12..buffer.len() 
         {
             let prediction = coefficients.iter()
